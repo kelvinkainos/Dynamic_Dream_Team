@@ -1,6 +1,6 @@
 USE Kainoos_OrlaithM;
 
-SELECT * FROM `Client`;
+
 
 CREATE TABLE `Client` (
 ClientID int PRIMARY KEY auto_increment,
