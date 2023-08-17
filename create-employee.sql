@@ -1,6 +1,6 @@
 USE Kainoos_OrlaithM;
 
-SELECT * FROM Employee;
+
 
 CREATE TABLE Employee (
 EmployeeID int PRIMARY KEY auto_increment,
