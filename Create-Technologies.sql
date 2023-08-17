@@ -3,14 +3,17 @@ show databases;
 use Kainoos_OrlaithM;
 
 create table Technologies (
-id int,
+TechnologiesID int,
 Type varchar(60)
 );
 
+
+
 alter table Technologies
-add primary key(id);
+add primary key(TechnologiesID);
 
-alter table Technologies modify id int auto_increment;
+alter table Technologies modify TechnologiesID int auto_increment;
 
 
 
+show tables;
